@@ -4,13 +4,13 @@ Un aplicativo web a través del FrameWork ANGULAR con Firebase como "base de dat
 
 ## INSTALACIONES (iniciales):
 
-Visual Studio Code
-Navagedor (Chrome, Brave, Firefox...)
-Git
-Terminal (Símbolo del sistema o Consola)
-Node JS https://nodejs.org/en
-Instalar TypeScript  "  npm install -g typescript  "  
-Instalar Angular " npm install -g angular/cli   "
+* Visual Studio Code
+* Navagedor (Chrome, Brave, Firefox...)
+* Git
+* Terminal (Símbolo del sistema o Consola)
+* Node JS https://nodejs.org/en
+* Instalar TypeScript  "  npm install -g typescript  "  
+* Instalar Angular " npm install -g angular/cli   "
 
 + Extensiones  de Visual Studio Code:
 https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2 Angular Snippets
