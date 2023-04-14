@@ -12,6 +12,6 @@ Un aplicativo web a través del FrameWork ANGULAR con Firebase como "base de dat
 * Instalar TypeScript  "  npm install -g typescript  "  
 * Instalar Angular " npm install -g angular/cli   "
 
-+ Extensiones  de Visual Studio Code:
-https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2 Angular Snippets
-https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter TypeScript Importer
+### Extensiones  de Visual Studio Code:
+* https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2 Angular Snippets
+* https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter TypeScript Importer
