@@ -9,14 +9,16 @@ const app_routes: Routes = [
   { path: '', component: PortfolioComponent }, //Ruta principal
   { path: 'about', component: AboutComponent },
   { path: 'item', component: ItemComponent },
-  { path: 'terminos' , component: TerminosComponent},
+  { path: 'terminos', component: TerminosComponent },
   { path: '**', pathMatch: 'full', redirectTo: '' },
   //Totes les altres rutes que no existeixin a les anteriors
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(app_routes)],
+  exports: [RouterModule],
 })
+
 export class AppRoutingModule {
-  //Mòdul per a la navegació
+
 }
