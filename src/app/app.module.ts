@@ -1,4 +1,4 @@
-//librerias de mÃ³dulos
+//librerias de módulos
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -9,8 +9,9 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { TerminosComponent } from './pages/terminos/terminos.component';
+import { ItemComponent } from './pages/item/item.component';
 
-//Decorador de mÃ³dulos
+//Decorador de módulos
 @NgModule({
   //Componentes
   declarations: [
@@ -19,7 +20,8 @@ import { TerminosComponent } from './pages/terminos/terminos.component';
     FooterComponent,
     AboutComponent,
     PortfolioComponent,
-    TerminosComponent
+    TerminosComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule
