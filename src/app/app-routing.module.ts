@@ -1,5 +1,8 @@
+//librerias de módulos
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
+//Componentes
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
@@ -15,6 +18,7 @@ const app_routes: Routes = [
   //Totes les altres rutes que no existeixin a les anteriors
 ];
 
+//Decorador para importaciones/exportaciones
 @NgModule({
   imports: [RouterModule.forRoot(app_routes)],
   exports: [RouterModule],
