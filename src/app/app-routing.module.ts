@@ -20,7 +20,7 @@ const app_routes: Routes = [
 
 //Decorador para importaciones/exportaciones
 @NgModule({
-  imports: [RouterModule.forRoot(app_routes)],
+  imports: [RouterModule.forRoot(app_routes, {useHash: true})],
   exports: [RouterModule],
 })
 
