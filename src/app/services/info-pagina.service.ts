@@ -12,8 +12,9 @@ export class InfoPaginaService {
   constructor(private http: HttpClient) {
     // console.log("Servicio de infoPagina listo")
     this.cargarInfo();
+    this.cargarEquipo();
   }
-  // Leer el archivo JSON
+  // Leer el archivo JSON interno
   private cargarInfo() {
     this.http
       .get('assets/data/data-pagina.json')
@@ -22,4 +23,15 @@ export class InfoPaginaService {
         console.log(resp);
       });
   }
+  // Leer el archivo JSON externo en la Real Time DataBase de Firebase de Google
+  private cargarEquipo() {
+    this.http
+      .get('https://etif-curso-webapp-angular-2023-default-rtdb.europe-west1.firebasedatabase.app/equip.json')
+      .subscribe((resp: InfoPagina) => {
+        this.equipo = resp; // provar resp. I veurem les propietats JSON
+        console.log(resp);
+      });
+  }
+  
+  
 }
