@@ -8,11 +8,13 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { TerminosComponent } from './pages/terminos/terminos.component';
 import { ProyectosComponent } from './pages/proyectos/proyectos.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 //"Menú de navegación"
 const app_routes: Routes = [
   { path: '', component: PortfolioComponent }, //Ruta principal "localhost:4200"
   { path: 'about', component: AboutComponent }, //"localhost:4200/about"
+  { path: 'contacto', component: ContactoComponent }, //"localhost:4200/contacto"
   { path: 'item', component: ItemComponent }, //"localhost:4200/item"
   { path: 'terminos', component: TerminosComponent }, //"localhost:4200/item"
   { path: 'project', component: ProyectosComponent }, //"localhost:4200/item"

@@ -13,6 +13,7 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { TerminosComponent } from './pages/terminos/terminos.component';
 import { ItemComponent } from './pages/item/item.component';
 import { ProyectosComponent } from './pages/proyectos/proyectos.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 //Decorador de módulos
 @NgModule({
@@ -25,7 +26,8 @@ import { ProyectosComponent } from './pages/proyectos/proyectos.component';
     PortfolioComponent,
     TerminosComponent,
     ItemComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
